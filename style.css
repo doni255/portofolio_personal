@@ -126,6 +126,11 @@ header {
   }
 
   @media (max-width: 768px) {
+
+    .logo-holder{
+      margin-left: -100px;
+    }
+    
     flex-direction: column;
     align-items: center;
     nav {
