@@ -1,3 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <link rel="icon" href="image/jpg" href="" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">
+          <img src="./imgs/icon.png" alt="" />
+        </div>
+        <div class="logo-text">Portofolio Website</div>
+      </a>
+
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="mailto:wijayadoni37@gmail.com" class="button"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1><small>Hi I`m</small> Doni Wijaya</h1>
+            <p>
+              Developer in Indonesia who creates website with HTML, CSS, and
+              JavaScript.
+              <span
+                >I`m intersted in AI topics which is why I also add things like
+                ChatGpt into my project these days.</span
+              >
+            </p>
+            <div class="call-to-action" >
+              <a
+                class="button black"
+                target="_blank"
+                rel="noopener noreferrer"
+                id="resumePortoBtn"
+              >
+                Resume & Porto
+              </a>
+              <a href="mailto:hello@wijayadoni37.com" class="button white">
+                Contact Me
+              </a>
+            </div>
+            <div class="dropdown" id="dropdownMenu">
+              <a href="https://drive.google.com/file/d/1Ziq4bKC7qMmVAgYLytwnE7ALHcpvAsMe/view?usp=sharing" target="_blank">📄 Resume</a>
+              <a href="https://drive.google.com/file/d/1N4U2SKVy0P_a4e3zzGy4FtAFyLdrliHS/view?usp=sharing " target="_blank">🎨 Porto</a>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/donii_wijaya9/"
+                target="_blank"
+              >
+                <img src="./imgs/instagram (1).png" alt="Github" width="48" />
+              </a>
+              <a
+                href="https://wa.me/6282154164970"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="whatsapp-icon"
+              >
+                <img src="./imgs/whatsapp.png" alt="WhatsApp" width="48" />
+              </a>
+              <a href="https://github.com/doni255" target="_blank">
+                <img
+                  src="./imgs/icons8-github-50.png"
+                  alt="Github"
+                  width="48"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/doni-wijaya-b041631b1/"
+                target="_blank"
+              >
+                <img
+                  src="./imgs/icons8-linkedin-30.png"
+                  alt="LinkedIn"
+                  width="48"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-yellow"></div>
+      </section>
+
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+
+            <img src="./imgs/javascript.png" alt="HTML" width="128" />
+            <img src="./imgs/react.png" alt="HTML" width="128" />
+            <img src="./imgs/vscode.png" alt="HTML" width="128" />
+            <img src="./imgs/sass.png" alt="HTML" width="128" />
+            <img src="./imgs/web.png" alt="HTML" width="128" />
+            <img src="./imgs/nextjs.png" alt="HTML" width="128" />
+            <img src="./imgs/express.png" alt="HTML" width="128" />
+            <img src="./imgs/azure.png" alt="HTML" width="128" />
+            <img
+              src="./imgs/Front-End-Developer-Tool-Laravel--Streamline-Freehand.png"
+              alt="HTML"
+              width="128"
+            />
+            <img src="./imgs/javascript.png" alt="HTML" width="128" />
+            <img src="./imgs/react.png" alt="HTML" width="128" />
+            <img src="./imgs/vscode.png" alt="HTML" width="128" />
+            <img src="./imgs/sass.png" alt="HTML" width="128" />
+            <img src="./imgs/web.png" alt="HTML" width="128" />
+            <img src="./imgs/nextjs.png" alt="HTML" width="128" />
+
+            <img
+              src="./imgs/Front-End-Developer-Tool-Laravel--Streamline-Freehand.png"
+              alt="HTML"
+              width="128"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SASS</li>
+              <li>TailwindCSS</li>
+              <li>BootStrap</li>
+              <li>JavaScript</li>
+              <li>ReactJs</li>
+              <li>VueJs</li>
+              <li>AngularJs</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>Node.js</li>
+              <li>Express.Js</li>
+              <li>Next.Js</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              Hi I`m Doni Wijaya, a developer who creates website with HTML, CSS
+              and JavaScript. I`m intrested in AI topics which is boost me to working on my project. 
+              Ai are very important now adays, that is why i also add
+              things like ChatGpt and DeepSeek into my projects these days
+            </p>
+            <p>
+              I`m currently looking for new opportunities so if you have a
+              project you think I`d be a good fit for, please get in touch!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="work-experience container">
+        <h2>
+          <small>Personal Projects</small>
+          Front End & FullStack
+        </h2>
+        <div class="jobs">
+   
+          <article>
+            <figure>
+              <a
+                href="https://front-end-machine-shop-y27a.vercel.app/"
+                target="_blank"
+              >
+                <div>
+                  <img
+                    src="./imgs/project_machine_Shop.png"
+                    alt="Workplace 1 -"
+                    width="100%"
+                  />
+                  <figcaption>FullStack</figcaption>
+                </div>
+              </a>
+            </figure>
+            <br />
+            <div>2024-2025</div>
+            <p>Machine shop e-commerce website</p>
+            <!-- Languaege Used -->
+            <ul class="tech-stack">
+              <li><img src="./imgs/html.png" alt="HTML5" /></li>
+              <li><img src="./imgs/Tailwind CSS.png" alt="CSS3" /></li>
+              <li><img src="./imgs/javascript.png" alt="JavaScript" /></li>
+              <li><img src="./imgs/react.png" alt="ReactJs" /></li>
+              <li><img src="./imgs/web.png" alt="ReactJs" /></li>
+              <li>
+                <img
+                  src="./imgs/Front-End-Developer-Tool-Laravel--Streamline-Freehand.png"
+                  alt="Laravel"
+                />
+              </li>
+            </ul>
+
+            <!-- Demo Login Information -->
+            <div class="login-info-container">
+              <button class="toggle-login-info" onclick="toggleLoginInfo()">
+                Show Demo Login Information
+              </button>
+              <div class="login-info" style="display: none">
+                <h4>Demo Login Information</h4>
+                <ul>
+                  <li>
+                    <strong>User:</strong>
+                    <span>Username: user | Password: user</span>
+                  </li>
+                  <li>
+                    <strong>Supplier:</strong>
+                    <span>Email: supplier | Password: supplier</span>
+                  </li>
+                  <li>
+                    <strong>Admin:</strong>
+                    <span>Email: admin | Password: MelawiMarine123@</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article>
+            <figure>
+              <a
+                href="https://travel-website-ucco.vercel.app//"
+                target="_blank"
+              >
+                <div>
+                  <img
+                    src="./imgs/TRAVEL.png"
+                    alt="Workplace 1 -"
+                    width="100%"
+                  />
+                  <figcaption>Front End</figcaption>
+                </div>
+              </a>
+            </figure>
+            <br />
+            <div>2024-2025</div>
+            <p>Travel Information Website</p>
+            <!-- Languaege Used -->
+            <ul class="tech-stack">
+              <li><img src="./imgs/html.png" alt="HTML5" /></li>
+              <li><img src="./imgs/css.png" alt="CSS3" /></li>
+              <li><img src="./imgs/javascript.png" alt="JavaScript" /></li>
+              <li><img src="./imgs/react.png" alt="ReactJs" /></li>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="bento container">
+        <h2>
+          <small>Previous</small>
+          Completed Client Projects
+        </h2>
+        <div class="bento-grid">
+          <div class="bento-item">
+            <a
+              href="https://roomarofficial.com/"
+              target="_blank"
+            >
+              <img
+                src="./imgs/romar.png"
+                alt="Project 1 -"
+                width="100%"
+              />
+              <div class="project-info">
+                <p>🛠 Built with: Vue.js, Laravel</p>
+              </div>
+            </a>
+          </div>
+          <div class="bento-item">
+            <a href="https://coffeshop-kappa.vercel.app/" target="_blank">
+              <img src="./imgs/cafe_frontend.png" alt="Project 2 -" width="100%" />
+              <div class="project-info">
+                <p>☕ Built with: React.js, Firebase</p>
+            </div>
+            </a>
+          </div>
+          <!-- <div class="bento-item">
+            <img src="./imgs/bento-3.jpg" alt="Workplace 1 -" width="100%" />
+          </div>
+          <div class="bento-item">
+            <img src="./imgs/bento-4.jpg" alt="Workplace 1 -" width="100%" />
+          </div>
+          <div class="bento-item">
+            <img src="./imgs/bento-5.jpg" alt="Workplace 1 -" width="100%" />
+          </div>
+          <div class="bento-item">
+            <img src="./imgs/bento-7.jpg" alt="Workplace 1 -" width="100%" />
+          </div> -->
+        </div>
+      </section>
+
+      <!-- <section class="chatbot container">
+        <h2>
+          <small>Talk to me</small>
+          Chatbot
+        </h2>
+        <div class="chatbot-blue">
+          <div class="chat-info">
+            <h3>Azure Ai Chabot</h3>
+            <p>
+              I`ve put together a chatbot here which knows all my skills,
+              experience and has a copy of my CV/Resme. You can use it to ask
+              questions about me to get a better idea of who i am and what I`ve
+              done.
+            </p>
+            <p>
+              You can also download my resume here if you want to take a look at
+              it. I`m currently looking for new opportunities so if you have a
+              project you think I`d be a good fit for, please get in touch!
+            </p>
+            <a href="./Sample_Resume_Template.pdf" class="button black"
+              >Download Resume</a
+            >
+          </div>
+          <div class="chat-box">
+            <div class="scroll-area">
+              <ul class="chat-log">
+                <li>
+                  <span class="avatar bot">AI</span>
+                  <div class="message">
+                    Hi, I`m a friendly chatbot that les you interactive with
+                    this portofolio and CV. How can I help?
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar bot">User</span>
+                  <div class="message">
+                    I have a question to ask you about this resume
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar bot">AI</span>
+                  <div class="message">
+                    Hi, I`m a friendly chatbot that les you interactive with
+                    this portofolio and CV. How can I help?
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar bot">User</span>
+                  <div class="message">
+                    I have a question to ask you about this resume
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar bot">AI</span>
+                  <div class="message">
+                    Hi, I`m a friendly chatbot that les you interactive with
+                    this portofolio and CV. How can I help?
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar bot">User</span>
+                  <div class="message">
+                    I have a question to ask you about this resume
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="chat-message">
+              <input
+                type="text"
+                placeholder="Hey Doni, what skills are you best at?"
+              />
+              <button class="button black">Send</button>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+  </body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -436,3 +867,4 @@
     </main>
   </body>
 </html>
+
